@@ -13,7 +13,7 @@ Seestraße 10
 **Fachgebiet MF4 | Informations- und Forschungsdatenmanagment**  
 [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)   
 
-Robert Koch-Institut (2023): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7796724](https://doi.org/10.5281/zenodo.7796724)
+Robert Koch-Institut (2023): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7800391](https://doi.org/10.5281/zenodo.7800391)
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
