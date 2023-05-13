@@ -1,28 +1,32 @@
 Datensatzdokumentation  
 # 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland  
 
-[Robert Koch-Institut | RKI](https://ror.org/01k5qnb77)   
+[Robert Koch-Institut | RKI](https://rki.de)   
 Seestraße 10  
 13353 Berlin  
 
 
-**Fachgebiet 32 | Surveillance**  
+**FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle**  
 [Alexander Ullrich](https://orcid.org/0000-0002-4894-6124) (Datenmanagement)  
 [Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Projektleitung)  
 
-**Fachgebiet MF4 | Informations- und Forschungsdatenmanagment**  
+**MF 4 | Fach- und Forschungsdatenmanagment**  
 [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)   
 
-Robert Koch-Institut (2023): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7927648](https://doi.org/10.5281/zenodo.7927648)
+---
+
+**Zitieren**
+
+Robert Koch-Institut (2023): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7931754](https://doi.org/10.5281/zenodo.7931754)
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
 ### Administrative und organisatorische Angaben  
 
 Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) an das RKI übermittelten COVID-19-Fälle veröffentlicht.  
-Das [Fachgebiet 32 | Surveillance](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.  
-Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das Fachgebiet [IT4 | Development](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.  
+Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das Fachgebiet [IT4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des RKI.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 
 ### Entstehungskontext
 
