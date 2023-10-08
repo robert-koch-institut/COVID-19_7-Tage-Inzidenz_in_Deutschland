@@ -14,7 +14,7 @@ abstract: >-
   Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt
   (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und
   Integrationsstatistiken.
-date-released: '2023-10-07'
+date-released: '2023-10-08'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -34,7 +34,7 @@ keywords:
 message: Cite me!
 url: ''
 license: CC-BY-4.0
-doi: 10.5281/zenodo.8415808
-version: '2023-10-07T05:51:20+02:00'
+doi: 10.5281/zenodo.8417899
+version: '2023-10-08T05:51:10+02:00'
 authors:
   - name: Robert Koch-Institut
