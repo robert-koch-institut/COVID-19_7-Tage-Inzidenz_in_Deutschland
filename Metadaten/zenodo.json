@@ -1,6 +1,6 @@
 {
   "title": "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland",
-  "description": "Im Datensatz '7-Tage-Inzidenz von COVID-19 in Deutschland' werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des <a href=\"https://www.gesetze-im-internet.de/ifsg/index.html\">Infektionsschutzgesetzes - IfSG -</a> an das RKI übermittelten COVID-19-Fälle veröffentlicht. Datengrundlage zur Berechnung der 7-Tage-Inzidenzen sind die an das RKI übermittelten COVID-19-Fälle. Eine detaillierte Dokumentation zur Erhebung der Daten zum Infektionsgeschehen ist im Datensatz '<a href=\"https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv\">SARS-CoV-2-Infektionen in Deutschland</a>' enthalten. Die für die Berechnung der 7-Tage-Inzidenz notwendigen Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken.",
+  "description": "<p>Im Datensatz '7-Tage-Inzidenz von COVID-19 in Deutschland' werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des <a href=\"https://www.gesetze-im-internet.de/ifsg/index.html\">Infektionsschutzgesetzes - IfSG -</a> an das RKI übermittelten COVID-19-Fälle veröffentlicht. Datengrundlage zur Berechnung der 7-Tage-Inzidenzen sind die an das RKI übermittelten COVID-19-Fälle. Eine detaillierte Dokumentation zur Erhebung der Daten zum Infektionsgeschehen ist im Datensatz '<a href=\"https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv\">SARS-CoV-2-Infektionen in Deutschland</a>' enthalten. Die für die Berechnung der 7-Tage-Inzidenz notwendigen Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken.</p>\n",
   "creators": [
     {
       "name": "Robert Koch-Institut",
@@ -40,8 +40,8 @@
     "Open Data",
     "RKI"
   ],
-  "publication_date": "2023-11-23",
-  "version": "2023-11-23",
+  "publication_date": "2023-11-24",
+  "version": "2023-11-24",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -71,8 +71,8 @@
   ],
   "dates": [
     {
-      "start": "2023-11-23T05:50:53+01:00",
-      "end": "2023-11-23T05:50:53+01:00",
+      "start": "2023-11-24T05:50:15+01:00",
+      "end": "2023-11-24T05:50:15+01:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
