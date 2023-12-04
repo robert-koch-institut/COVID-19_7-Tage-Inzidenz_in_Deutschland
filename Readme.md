@@ -17,7 +17,7 @@ Seestraße 10
 
 **Zitieren**
 
-Robert Koch-Institut (2023): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.10252093](https://doi.org/10.5281/zenodo.10252093)
+Robert Koch-Institut (2023): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.10253694](https://doi.org/10.5281/zenodo.10253694)
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
