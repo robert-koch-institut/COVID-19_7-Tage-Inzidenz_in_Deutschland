@@ -14,7 +14,7 @@ abstract: >-
   Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt
   (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und
   Integrationsstatistiken.
-date-released: '2024-01-27'
+date-released: '2024-01-28'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -35,7 +35,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.10574420
-version: '2024-01-27T06:58:54+01:00'
+doi: 10.5281/zenodo.10576823
+version: '2024-01-28T06:58:55+01:00'
 authors:
   - name: Robert Koch-Institut
