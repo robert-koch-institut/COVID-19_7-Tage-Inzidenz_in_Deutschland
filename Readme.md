@@ -5,19 +5,19 @@ Datensatzdokumentation
 Seestraße 10  
 13353 Berlin  
 
+<br>
 
-**FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle**  
-[Alexander Ullrich](https://orcid.org/0000-0002-4894-6124) (Datenmanagement)  
-[Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Projektleitung)  
+**Beitragende**
+[Alexander Ullrich](https://orcid.org/0000-0002-4894-6124)&sup1; (Datenmanagement), [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1; (Projektleitung) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup2; (Datenkuration)  
 
-**MF 4 | Fach- und Forschungsdatenmanagment**  
-[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)   
+&emsp;&sup1; [Robert Koch Institute](https://www.rki.de) | [Fachgebiet 32 ](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)
+&emsp;&sup2; [Robert Koch Institute](https://www.rki.de) | [Fachgebiebt MF 4](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html)
 
 ---
 
 **Zitieren**
 
-Robert Koch-Institut (2024): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.12718966](https://doi.org/10.5281/zenodo.12718966)
+Robert Koch-Institut (**2024**): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.12730389](https://doi.org/10.5281/zenodo.12730389)
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
@@ -26,7 +26,7 @@ Robert Koch-Institut (2024): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland,
 Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) an das RKI übermittelten COVID-19-Fälle veröffentlicht.  
 Das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.  
 Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das Fachgebiet [IT4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 
 ### Entstehungskontext
 
@@ -94,7 +94,7 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 
 > [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv)
 
-### Variablen und Variablenausprägungen
+#### Variablen und Variablenausprägungen
 Die 7-Tage-Inzidenzen auf Bundesebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
 |Variable|Typ|Ausprägungen|Beschreibung|
@@ -121,7 +121,7 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 
 > [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv)
 
-### Variablen und Variablenausprägungen
+#### Variablen und Variablenausprägungen
 
 Die 7-Tage-Inzidenzen auf Bundeslandebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
@@ -151,7 +151,7 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 
 > [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv)
 
-### Variablen und Variablenausprägungen
+#### Variablen und Variablenausprägungen
 
 Die 7-Tage-Inzidenzen auf Landkreisebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
@@ -175,27 +175,40 @@ Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwen
 - .csv Trennzeichen: Komma ","
 
 
-### Metadaten
+### Metadaten  
 
-Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-> [Metadaten/](/Metadaten/)  
+> [Metadaten/](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/)    
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+ 
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
-> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
+In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-## Hinweise zur Nachnutzung der Daten
+```
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Created",
+      "description": "Date when the published data was created"
+    }
+  ],
+```    
 
-Offene Forschungsdaten des RKI werden auf [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:
+## Hinweise zur Nachnutzung der Daten  
 
-- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
-- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
-- [https://edoc.rki.de](https://edoc.rki.de/)
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
 
-### Lizenz
+Der Datensatz "Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Der Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).
-
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](/LICENSE) bzw. [LIZENZ](/LIZENZ) Datei des Datensatzes.
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
