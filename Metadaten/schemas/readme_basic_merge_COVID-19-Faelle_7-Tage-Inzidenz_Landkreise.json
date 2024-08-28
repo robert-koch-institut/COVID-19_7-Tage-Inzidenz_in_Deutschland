@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "name": "Meldedatum",
+      "type": "date",
+      "constraints": {}
+    },
+    {
+      "name": "Landkreis_id",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "Bevoelkerung",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "Faelle_gesamt",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "Faelle_neu",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "Faelle_7-Tage",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "Inzidenz_7-Tage",
+      "type": "number",
+      "constraints": {}
+    }
+  ]
+}

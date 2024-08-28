@@ -1,0 +1,34 @@
+{
+  "name": "covid-19_7-tage-inzidenz_in_deutschland",
+  "title": "COVID-19_7-Tage-Inzidenz_in_Deutschland",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "covid-19-faelle_7-tage-inzidenz_bundeslaender",
+      "type": "table",
+      "path": "../../COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json"
+    },
+    {
+      "name": "covid-19-faelle_7-tage-inzidenz_deutschland",
+      "type": "table",
+      "path": "../../COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json"
+    },
+    {
+      "name": "covid-19-faelle_7-tage-inzidenz_landkreise",
+      "type": "table",
+      "path": "../../COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json"
+    }
+  ]
+}
