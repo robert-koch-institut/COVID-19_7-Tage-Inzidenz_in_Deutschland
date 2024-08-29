@@ -1,0 +1,60 @@
+{
+  "fields": [
+    {
+      "name": "Meldedatum",
+      "type": "date",
+      "description": "Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat",
+      "format": "%Y-%m-%d"
+    },
+    {
+      "name": "Bundesland_id",
+      "type": "string",
+      "description": "ID des Bundeslands, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels"
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "integer",
+      "description": "Altersgruppe der gemeldeten Fälle"
+    },
+    {
+      "name": "Bevoelkerung",
+      "type": "integer",
+      "description": "Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "Faelle_gesamt",
+      "type": "integer",
+      "description": "COVID-19-Fälle seit Beginn der Datenerhebung",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "Faelle_neu",
+      "type": "integer",
+      "description": "Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "Faelle_7-Tage",
+      "type": "integer",
+      "description": "Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "Inzidenz_7-Tage",
+      "type": "number",
+      "description": "COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen",
+      "constraints": {
+        "minimum": 0
+      }
+    }
+  ]
+}
