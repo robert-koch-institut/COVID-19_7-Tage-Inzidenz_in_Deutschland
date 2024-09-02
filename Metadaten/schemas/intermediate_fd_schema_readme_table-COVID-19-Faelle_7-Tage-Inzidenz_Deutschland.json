@@ -3,11 +3,12 @@
     {
       "name": "Meldedatum",
       "type": "date",
-      "description": "Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat"
+      "description": "Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat",
+      "format": "%Y-%m-%d"
     },
     {
       "name": "Altersgruppe",
-      "type": "integer",
+      "type": "string",
       "description": "Altersgruppe der übermittelten COVID-19-Fälle",
       "constraints": {
         "enum": [

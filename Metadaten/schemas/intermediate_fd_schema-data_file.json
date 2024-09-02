@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "name": "Meldedatum",
+      "type": "date"
+    },
+    {
+      "name": "Landkreis_id",
+      "type": "integer"
+    },
+    {
+      "name": "Bevoelkerung",
+      "type": "integer"
+    },
+    {
+      "name": "Faelle_gesamt",
+      "type": "integer"
+    },
+    {
+      "name": "Faelle_neu",
+      "type": "integer"
+    },
+    {
+      "name": "Faelle_7-Tage",
+      "type": "integer"
+    },
+    {
+      "name": "Inzidenz_7-Tage",
+      "type": "number"
+    }
+  ]
+}

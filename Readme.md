@@ -100,7 +100,7 @@ Die 7-Tage-Inzidenzen auf Bundesebene enthalten die in der folgenden Tabelle abg
 |Variable|Typ|Ausprägungen|Beschreibung|
 | ---| --- | -- | -- |
 |Meldedatum|Datum|JJJJ-MM-TT|Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat|
-|Altersgruppe|Natürliche Zahl|`00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+`|Altersgruppe der übermittelten COVID-19-Fälle|
+|Altersgruppe|Text|`00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+`|Altersgruppe der übermittelten COVID-19-Fälle|
 |Bevoelkerung|Natürliche Zahl|`≥ 0`|Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021|
 |Faelle_gesamt|Natürliche Zahl|`≥ 0`|COVID-19-Fälle seit Beginn der Datenerhebung|
 |Faelle_neu|Natürliche Zahl|`≥ 0`|Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden|
@@ -130,7 +130,7 @@ Die 7-Tage-Inzidenzen auf Bundeslandebene enthalten die in der folgenden Tabelle
 | --- | --- | --- | --- |
 |Meldedatum|Datum|`JJJJ-MM-TT`|Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat|
 |Bundesland_id|Text|`01`, ..., `16` |ID des Bundeslands, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels|
-|Altersgruppe|Natürliche Zahl|`00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+`|Altersgruppe der gemeldeten Fälle|
+|Altersgruppe|Text|`00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+`|Altersgruppe der gemeldeten Fälle|
 |Bevoelkerung|Natürliche Zahl|`≥ 0`|Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021|
 |Faelle_gesamt|Natürliche Zahl|`≥ 0`|COVID-19-Fälle seit Beginn der Datenerhebung|
 |Faelle_neu|Natürliche Zahl|`≥ 0`|Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden|

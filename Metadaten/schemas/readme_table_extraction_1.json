@@ -13,8 +13,19 @@
     },
     {
       "name": "Altersgruppe",
-      "type": "integer",
-      "description": "Altersgruppe der gemeldeten Fälle"
+      "type": "string",
+      "description": "Altersgruppe der gemeldeten Fälle",
+      "constraints": {
+        "enum": [
+          "00-04",
+          "05-14",
+          "15-34",
+          "35-59",
+          "60-79",
+          "80+",
+          "00+"
+        ]
+      }
     },
     {
       "name": "Bevoelkerung",

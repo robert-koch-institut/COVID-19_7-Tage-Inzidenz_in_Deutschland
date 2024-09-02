@@ -1,0 +1,9 @@
+| Variable        | Typ     | Ausprägungen                           | Beschreibung                                                                                                                            |
+|:----------------|:--------|:---------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
+| Meldedatum      | date    | Format: `%Y-%m-%d`                     | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
+| Landkreis_id    | string  | Format: `^(1[0-6]?\|0[0-9]?)[0-9]{3}$` | ID des Landkreises, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
+| Bevoelkerung    | integer | Minimum: 0                             | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021 |
+| Faelle_gesamt   | integer | Minimum: 0                             | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
+| Faelle_neu      | integer | Minimum: 0                             | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
+| Faelle_7-Tage   | integer | Minimum: 0                             | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
+| Inzidenz_7-Tage | number  | Minimum: 0                             | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
