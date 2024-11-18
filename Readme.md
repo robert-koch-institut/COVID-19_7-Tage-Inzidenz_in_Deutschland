@@ -97,6 +97,12 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 #### Variablen und Variablenausprägungen
 Die 7-Tage-Inzidenzen auf Bundesebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Deutschland", "lang": "de"} -->
+
+Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json) hinterlegt:
+> [frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable        | Typ     | Ausprägungen                                                     | Beschreibung                                                                                                                            |
 |:----------------|:--------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | Meldedatum      | date    | Format: `YYYY-MM-DD`                                             | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
@@ -107,11 +113,14 @@ Die 7-Tage-Inzidenzen auf Bundesebene enthalten die in der folgenden Tabelle abg
 | Faelle_7-Tage   | integer | Werte: ≥0                                                        | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
 | Inzidenz_7-Tage | number  | Werte: ≥0                                                        | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json`](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json).
+
 
 
 ### 7-Tage-Inzidenz von COVID-19 auf Bundeslandebene
@@ -133,6 +142,12 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 Die 7-Tage-Inzidenzen auf Bundeslandebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender", "lang": "de"} -->
+
+Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json) hinterlegt:
+> [frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable        | Typ     | Ausprägungen                                                     | Beschreibung                                                                                                                            |
 |:----------------|:--------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | Meldedatum      | date    | Format: `YYYY-MM-DD`                                             | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
@@ -144,11 +159,14 @@ Die 7-Tage-Inzidenzen auf Bundeslandebene enthalten die in der folgenden Tabelle
 | Faelle_7-Tage   | integer | Werte: ≥0                                                        | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
 | Inzidenz_7-Tage | number  | Werte: ≥0                                                        | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json`](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json).
+
 
 
 ### 7-Tage-Inzidenz von COVID-19 auf Landkreisebene
@@ -170,21 +188,30 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 Die 7-Tage-Inzidenzen auf Landkreisebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
 
-| Variable        | Typ     | Ausprägungen                                                     | Beschreibung                                                                                                                            |
-|:----------------|:--------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| Meldedatum      | date    | Format: `YYYY-MM-DD`                                             | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
-| Landkreis_id    | string  | Format: siehe Datenschemadatei (Link direkt nach dieser Tabelle) | ID des Landkreises, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
-| Bevoelkerung    | integer | Werte: ≥0                                                        | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021 |
-| Faelle_gesamt   | integer | Werte: ≥0                                                        | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
-| Faelle_neu      | integer | Werte: ≥0                                                        | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
-| Faelle_7-Tage   | integer | Werte: ≥0                                                        | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
-| Inzidenz_7-Tage | number  | Werte: ≥0                                                        | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Landkreise", "lang": "de"} -->
+
+Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json) hinterlegt:
+> [frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable        | Typ     | Ausprägungen                                                            | Beschreibung                                                                                                                            |
+|:----------------|:--------|:------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
+| Meldedatum      | date    | Format: `YYYY-MM-DD`                                                    | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
+| Landkreis_id    | string  | Werte: `01001`, `01002`, `01003`, `01004`, `01051`, `01053`, `01054`, … | ID des Landkreises, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
+| Bevoelkerung    | integer | Werte: ≥0                                                               | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021 |
+| Faelle_gesamt   | integer | Werte: ≥0                                                               | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
+| Faelle_neu      | integer | Werte: ≥0                                                               | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
+| Faelle_7-Tage   | integer | Werte: ≥0                                                               | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
+| Inzidenz_7-Tage | number  | Werte: ≥0                                                               | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json`](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json).
 
 
 
