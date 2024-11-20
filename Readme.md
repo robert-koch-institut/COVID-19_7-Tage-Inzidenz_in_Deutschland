@@ -95,7 +95,6 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 > [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv)
 
 #### Variablen und Variablenausprägungen
-Die 7-Tage-Inzidenzen auf Bundesebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Deutschland", "lang": "de"} -->
 
@@ -118,11 +117,6 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://github.com/r
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
-
-
-
-
-
 ### 7-Tage-Inzidenz von COVID-19 auf Bundeslandebene
 
 Die Daten zur 7-Tage-Inzidenz auf Bundeslandebene sind nach folgenden Merkmalen differenziert (in den Klammern finden sich die Variablen dieser Merkmale):
@@ -138,9 +132,6 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 > [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv)
 
 #### Variablen und Variablenausprägungen
-
-Die 7-Tage-Inzidenzen auf Bundeslandebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
-
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender", "lang": "de"} -->
 
@@ -164,11 +155,6 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://github.com
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
-
-
-
-
-
 ### 7-Tage-Inzidenz von COVID-19 auf Landkreisebene
 
 Die Daten zur 7-Tage-Inzidenz von COVID-19 auf Landkreisebene sind nach folgenden Merkmalen differenziert (in den Klammern finden sich die Variablen dieser Merkmale):
@@ -184,9 +170,6 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 > [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv)
 
 #### Variablen und Variablenausprägungen
-
-Die 7-Tage-Inzidenzen auf Landkreisebene enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
-
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Landkreise", "lang": "de"} -->
 
@@ -207,12 +190,6 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/ro
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
-
-
 
 
 ### Formatierung
