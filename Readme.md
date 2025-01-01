@@ -17,7 +17,7 @@ Nordufer 20
 
 **Zitieren**
 
-Robert Koch-Institut (**2024**): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.14580626](https://doi.org/10.5281/zenodo.14580626)
+Robert Koch-Institut (**2024**): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.14583951](https://doi.org/10.5281/zenodo.14583951)
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
