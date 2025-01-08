@@ -15,9 +15,8 @@ Nordufer 20
 
 ---
 
-**Zitieren**
-
-Robert Koch-Institut (**2024**): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.14614053](https://doi.org/10.5281/zenodo.14614053)
+**Zitieren**  
+Robert Koch-Institut (**2025**): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.14614053](https://doi.org/10.5281/zenodo.14614053)
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
@@ -54,7 +53,9 @@ Datengrundlage zur Berechnung der 7-Tage-Inzidenzen  sind die an das RKI überm
 
 > https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv
 
-Die für die Berechnung notwendigen Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken. Detaillierte Informationen und Ergebnisse des Statistischen Bundesamtes bietet der Themenbereiche „[Bevölkerungstand](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html)“ und die Datenbank [GENESIS-Online](https://www-genesis.destatis.de/genesis/online?sequenz=tabellen&selectionname=12411*#abreadcrumb), sowie die [Regionaldatenbank Deutschland](https://www.regionalstatistik.de/genesis/online?operation=statistic&levelindex=0&levelid=1664438374999&code=12411#abreadcrumb) des Bundes und der Länder. Die Daten zur Bevölkerung lassen sich in sich durch den Filtercode "12411" aufrufen.
+Die für die Berechnung der Inzidenzen bezieht das RKI Bevölkerungsdaten durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken. Detaillierte Informationen und Ergebnisse des Statistischen Bundesamtes bietet der Themenbereiche „[Bevölkerungstand](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html)“ und die Datenbank [GENESIS-Online](https://www-genesis.destatis.de/genesis/online?sequenz=tabellen&selectionname=12411*#abreadcrumb), sowie die [Regionaldatenbank Deutschland](https://www.regionalstatistik.de/genesis/online?operation=statistic&levelindex=0&levelid=1664438374999&code=12411#abreadcrumb) des Bundes und der Länder. Die Daten zur Bevölkerung lassen sich in sich durch den Filtercode "12411" aufrufen.   
+
+Für die Berechnung der Inzidenzen werden jeweils die Bevölkerungszahlen des entsprechenden Jahres verwendet (z. B. für das Jahr 2020 die Bevölkerungsdaten von 2020). Da aktuelle Bevölkerungsstatistiken zeitverzögert veröffentlicht werden, werden für jüngere Zeiträume, für die noch keine Daten vorliegen, die zuletzt verfügbaren Bevölkerungszahlen herangezogen. Aktuell (Datenstand: 2025-01-08) werden daher für die Jahre 2023, 2024 und 2025 die Bevölkerungszahlen des Jahres 2022 verwendet. Eine Umstellung auf die jeweils neuesten Zahlen ist stets angestrebt. Dabei kann es jedoch zu sprunghaften Änderungen der Inzidenzen kommen.
 
 ##### Berechnung
 
@@ -192,13 +193,12 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/ro
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
-### Formatierung
+#### Formatierung
 
 Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",".
 
 - Zeichensatz: UTF-8
 - .csv Trennzeichen: Komma ","
-
 
 ### Metadaten  
 
@@ -234,6 +234,6 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
  
 ### Lizenz  
 
-Der Datensatz "Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+Der Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
