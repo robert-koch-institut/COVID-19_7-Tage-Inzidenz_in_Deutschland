@@ -11,8 +11,8 @@
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Organization; foaf:name "Robert Koch-Institut" ];
                   dct:description "<p>Im Datensatz '7-Tage-Inzidenz von COVID-19 in Deutschland' werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des <a href=\"https://www.gesetze-im-internet.de/ifsg/index.html\">Infektionsschutzgesetzes - IfSG -</a> an das RKI übermittelten COVID-19-Fälle veröffentlicht. Datengrundlage zur Berechnung der 7-Tage-Inzidenzen sind die an das RKI übermittelten COVID-19-Fälle. Eine detaillierte Dokumentation zur Erhebung der Daten zum Infektionsgeschehen ist im Datensatz '<a href=\"https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv\">SARS-CoV-2-Infektionen in Deutschland</a>' enthalten. Die für die Berechnung der 7-Tage-Inzidenz notwendigen Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken.</p>" ;
-                  dct:issued "2025-01-18T07:30:03+01:00"^^xsd:dateTime ;
-                  dct:modified "2025-01-18T07:30:10+01:00"^^xsd:dateTime ;
+                  dct:issued "2025-01-20T11:18:30+01:00"^^xsd:dateTime ;
+                  dct:modified "2025-01-20T11:18:40+01:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.14684679" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.14697563" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland>;
-                    dct:modified "2025-01-18T07:30:03+01:00"^^xsd:dateTime;
+                    dct:modified "2025-01-20T11:18:30+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.14684679" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.14697563" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ;
                     dcat:accessURL <https://zenodo.org/record/7927648>;
-                    dct:modified "2025-01-18T07:30:03+01:00"^^xsd:dateTime;
+                    dct:modified "2025-01-20T11:18:30+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] 7-Tage-Inzidenz_der_COVID-19-Fälle_in_Deutschland.pdf" ;
-                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.14684679" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2025): 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.14697563" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz '7-Tage-Inzidenz der COVID-19-Fälle in Deutschland' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/7927648/files/%5BDokumentation%5D_COVID-19_7-Tage-Inzidenz_in_Deutschland.pdf>;
-                    dct:modified "2025-01-18T07:30:03+01:00"^^xsd:dateTime;
+                    dct:modified "2025-01-20T11:18:30+01:00"^^xsd:dateTime;
                   ].
