@@ -9,7 +9,27 @@
     {
       "name": "Bundesland_id",
       "type": "string",
-      "description": "ID des Bundeslands, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels"
+      "description": "ID des Bundeslands, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels",
+      "constraints": {
+        "enum": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ]
+      }
     },
     {
       "name": "Altersgruppe",
@@ -30,7 +50,7 @@
     {
       "name": "Bevoelkerung",
       "type": "integer",
-      "description": "Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021",
+      "description": "Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022",
       "constraints": {
         "minimum": 0
       }

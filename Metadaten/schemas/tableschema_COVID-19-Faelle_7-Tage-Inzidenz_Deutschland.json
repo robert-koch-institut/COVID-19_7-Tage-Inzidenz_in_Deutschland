@@ -25,7 +25,7 @@
     {
       "name": "Bevoelkerung",
       "type": "integer",
-      "description": "Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2021",
+      "description": "Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022",
       "constraints": {
         "minimum": 0
       }
