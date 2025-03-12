@@ -10,8 +10,8 @@ Nordufer 20
 **Beitragende**  
 [Alexander Ullrich](https://orcid.org/0000-0002-4894-6124)&sup1; (Datenmanagement), [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1; (Projektleitung) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup2; (Datenkuration)    
 
-&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 32 ](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)  
-&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet MF 4](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html)  
+&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 32 ](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)  
+&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet MF 4](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html)  
 
 ---
 
@@ -25,9 +25,9 @@ Robert Koch-Institut. (2025). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland
 ### Administrative und organisatorische Angaben  
 
 Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) an das RKI übermittelten COVID-19-Fälle veröffentlicht.  
-Das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.  
-Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das Fachgebiet [IT4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html) ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.  
+Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das Fachgebiet [IT4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/IT4/it4-softwarearchitektur-und-entwicklung-node.html) des RKI.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 
 ### Entstehungskontext
 
@@ -45,7 +45,7 @@ Die Meldung muss unverzüglich erfolgen und dem zuständigen Gesundheitsamt spä
 
 #### Übermittlung von COVID-19-Fällen an das RKI 
 
-COVID-19-Fälle, die die [Falldefinition des RKI](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Falldefinition.html?nn=13490888) erfüllen, müssen vom zuständigen Gesundheitsamt spätestens am nächsten Arbeitstag an die zuständige Landesbehörde und von dort spätestens am nächsten Arbeitstag an das RKI übermittelt werden. Die Daten werden für die Übermittlung pseudonymisiert. Der Übermittlungsweg ist durchgehend elektronisch.  
+COVID-19-Fälle, die die [Falldefinition des RKI](https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19/Falldefinition.pdf?__blob=publicationFile&v=1) erfüllen, müssen vom zuständigen Gesundheitsamt spätestens am nächsten Arbeitstag an die zuständige Landesbehörde und von dort spätestens am nächsten Arbeitstag an das RKI übermittelt werden. Die Daten werden für die Übermittlung pseudonymisiert. Der Übermittlungsweg ist durchgehend elektronisch.  
 
 #### Weiterverarbeitung der Daten
 
