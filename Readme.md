@@ -45,7 +45,7 @@ Die Meldung muss unverzüglich erfolgen und dem zuständigen Gesundheitsamt spä
 
 #### Übermittlung von COVID-19-Fällen an das RKI 
 
-COVID-19-Fälle, die die [Falldefinition des RKI](https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/C/COVID-19/Falldefinition.pdf?__blob=publicationFile&v=1) erfüllen, müssen vom zuständigen Gesundheitsamt spätestens am nächsten Arbeitstag an die zuständige Landesbehörde und von dort spätestens am nächsten Arbeitstag an das RKI übermittelt werden. Die Daten werden für die Übermittlung pseudonymisiert. Der Übermittlungsweg ist durchgehend elektronisch.  
+COVID-19-Fälle, die die [Falldefinition des RKI](https://www.rki.de/DE/Themen/Infektionskrankheiten/Meldewesen/Falldefinitionen/Downloads/COVID-19.pdf) erfüllen, müssen vom zuständigen Gesundheitsamt spätestens am nächsten Arbeitstag an die zuständige Landesbehörde und von dort spätestens am nächsten Arbeitstag an das RKI übermittelt werden. Die Daten werden für die Übermittlung pseudonymisiert. Der Übermittlungsweg ist durchgehend elektronisch.  
 
 #### Weiterverarbeitung der Daten
 
