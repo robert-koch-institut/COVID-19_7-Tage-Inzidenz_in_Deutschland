@@ -1,9 +1,0 @@
-version 1.1
-@totalColumns 7
-Meldedatum: xDate
-Landkreis_id: regex("^(1[0-6]?|0[0-9]?)[0-9]{3}$")
-Bevoelkerung: positiveInteger
-Faelle_gesamt: positiveInteger
-Faelle_neu: positiveInteger
-Faelle_7-Tage: positiveInteger
-Inzidenz_7-Tage: regex("[0-9]+|([0-9]+\.([0-9]{1}))")
