@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.15400934",
+        "identifier": "10.5281/zenodo.15421295",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -38,33 +38,33 @@
     "keywords": [
       {
         "label": "COVID-19",
-        "code": "D000086382"
+        "code": "http://id.nlm.nih.gov/mesh/D000086382"
       },
       {
         "label": "SARS-CoV-2",
-        "code": "D000086402"
+        "code": "http://id.nlm.nih.gov/mesh/D000086402"
       },
       {
         "label": "Inzidenz",
-        "code": "D015994"
+        "code": "http://id.nlm.nih.gov/mesh/D015994"
       },
       {
         "label": "7-Tage-Inzidenz"
       },
       {
         "label": "Incidence",
-        "code": "D015994"
+        "code": "http://id.nlm.nih.gov/mesh/D015994"
       },
       {
         "label": "Infektionen",
-        "code": "D007239"
+        "code": "http://id.nlm.nih.gov/mesh/D007239"
       },
       {
         "label": "Deutschland"
       },
       {
         "label": "Infections",
-        "code": "D007239"
+        "code": "http://id.nlm.nih.gov/mesh/D007239"
       },
       {
         "label": "Germany"
@@ -105,14 +105,20 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2025-05-14"
+      "version": "2025-05-15"
     },
     "webpage": "https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland/",
     "contributors": [
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -131,7 +137,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -150,7 +162,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Personal",
@@ -169,7 +187,13 @@
       {
         "affiliations": [
           {
-            "name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut",
+            "identifiers": [
+              {
+                "identifier": "01k5qnb77",
+                "scheme": "ROR"
+              }
+            ]
           }
         ],
         "nameType": "Organisational",
