@@ -4,13 +4,17 @@
       "name": "Meldedatum",
       "type": "date",
       "description": "Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat",
-      "format": "%Y-%m-%d"
+      "format": "%Y-%m-%d",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "Landkreis_id",
       "type": "string",
       "description": "ID des Landkreises, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels",
       "constraints": {
+        "required": true,
         "enum": [
           "01001",
           "01002",
@@ -422,6 +426,7 @@
       "type": "integer",
       "description": "Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -430,6 +435,7 @@
       "type": "integer",
       "description": "COVID-19-Fälle seit Beginn der Datenerhebung",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -438,6 +444,7 @@
       "type": "integer",
       "description": "Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -446,6 +453,7 @@
       "type": "integer",
       "description": "Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -454,6 +462,7 @@
       "type": "number",
       "description": "COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     }
