@@ -4,13 +4,17 @@
       "name": "Meldedatum",
       "type": "date",
       "description": "Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat",
-      "format": "%Y-%m-%d"
+      "format": "%Y-%m-%d",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "Altersgruppe",
       "type": "string",
-      "description": "Altersgruppe der übermittelten COVID-19-Fälle",
+      "description": "Altersgruppe der gemeldeten COVID-19-Fälle. Hinweis: Fälle mit unbekannter Altersgruppe sind nur in der Gruppe `00+` enthalten.",
       "constraints": {
+        "required": true,
         "enum": [
           "00-04",
           "05-14",
@@ -27,6 +31,7 @@
       "type": "integer",
       "description": "Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -35,6 +40,7 @@
       "type": "integer",
       "description": "COVID-19-Fälle seit Beginn der Datenerhebung",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -43,6 +49,7 @@
       "type": "integer",
       "description": "Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -51,6 +58,7 @@
       "type": "integer",
       "description": "Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     },
@@ -59,6 +67,7 @@
       "type": "number",
       "description": "COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen",
       "constraints": {
+        "required": true,
         "minimum": 0
       }
     }
