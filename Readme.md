@@ -67,9 +67,11 @@ Die 7-Tage-Inzidenzen berechnen sich aus der Summe der COVID-19-Fälle mit Melde
 7-Tage-Inzidenz = COVID-19-Fälle der letzten 7 Tage / Anzahl der Einwohner:innen * 100000 
 ```
 
-Durch den zeitlichen Verzug zwischen der Meldung und der Übermittlung an das RKI kommt es zu einer Unterschätzung der aktuellen Inzidenzen. Zur Abschätzung der tatsächlichen Fallzahlen stellt das RKI ein Nowcasting bereit.
+Durch den zeitlichen Verzug zwischen dem Beginn einer COVID-19 Erkrankung, der PCR-Testung, Fall-Meldung an das Gesundheitsamt und Übermittlung dieser Meldung vom Gesundheitsamt an das RKI kommt es zu einer Unterschätzung der jeweils aktuellen Inzidenzen. Zur Abschätzung des tatsächlichen Verlaufs der Fallzahlen stellte das RKI während der akuten Phase der COVID-19 Pandemie ein Nowcasting bereit.
 
 > an der Heiden, Matthias (2022): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.4680400](https://doi.org/10.5281/zenodo.4680400)
+
+Seit dem Ende der akuten Phase der COVID-19 Pandemie stellt die 7-Tage Inzidenz der Fallzahlen nach Meldedatum eine hinreichend genaue Näherung da, bei der auch nur noch der letzte Schritt (Dauer von Eingang der Meldung am Gesundheitsamt bis zur Übermittlung an das RKI) zu einer gewissen Unterschätzung in den Zahlen für den aktuellen Tag und die beiden Vortage führt.
 
 Die 7-Tage-Inzidenzen können für verschiedene Bezugsgruppen berechnet werden. In der epidemiologischen Statistik wird eine Bezugsgruppe als Population bezeichnet. Eine Bezugspuppe bzw. Population kann beispielsweise nur Personen, 80 Jahre und älter in einem Kreis enthalten. Bei der Berechnung der 7-Tage-Inzidenz für eine Bezugsgruppe werden nur die COVID-19-Fälle dieser Gruppe und die Anzahl der Einwohner:innen dieser Bezugsgruppe für die Berechnung herangezogen. Wird die Population nur räumlich differenziert (Deutschland, Bundesländer, Landkreise), ist die 7-Tage-Inzidenz als statistische Größe, die die durchschnittliche Anzahl an Neuerkrankungen bezogen auf 100.000 Einwohner:innen angibt, zu interpretieren. 
 
@@ -95,7 +97,7 @@ Die Daten zur 7-Tage-Inzidenz von COVID-19 sind nach folgenden Merkmalen differe
 
 Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesystem gemäß Infektionsschutzgesetz an das RKI übermittelten COVID-19-Fälle ab. Das bedeutet, dass alle bis 00:00 Uhr von den Gesundheitsämtern über die zuständigen Landesbehörden an das RKI übermittelten  COVID-19-Fälle im Datenstand enthalten sind. Die Daten werden täglich vollständig neu erzeugt, dieser Datenstand ersetzt den Datenstand des Vortages.
 
-> [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv)
+> [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv)
 
 #### Variablen und Variablenausprägungen
 
@@ -108,7 +110,7 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://github.com/r
 | Variable        | Typ     | Ausprägungen                                                     | Beschreibung                                                                                                                            |
 |:----------------|:--------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | Meldedatum      | date    | Format: `YYYY-MM-DD`                                             | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
-| Altersgruppe    | string  | Werte: `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der übermittelten COVID-19-Fälle                                                                                           |
+| Altersgruppe    | string  | Werte: `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der gemeldeten COVID-19-Fälle. Hinweis: Fälle mit unbekannter Altersgruppe sind nur in der Gruppe `00+` enthalten.         |
 | Bevoelkerung    | integer | Werte: `≥0`                                                      | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
 | Faelle_gesamt   | integer | Werte: `≥0`                                                      | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
 | Faelle_neu      | integer | Werte: `≥0`                                                      | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
@@ -132,7 +134,7 @@ Die Daten zur 7-Tage-Inzidenz auf Bundeslandebene sind nach folgenden Merkmalen 
 
 Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesystem gemäß Infektionsschutzgesetz an das RKI übermittelten COVID-19-Fälle ab. Das bedeutet, dass alle bis 00:00 Uhr von den Gesundheitsämtern über die zuständigen Landesbehörden an das RKI übermittelten  COVID-19-Fälle im Datenstand enthalten sind. Die Daten werden täglich vollständig neu erzeugt, dieser Datenstand ersetzt den Datenstand des Vortages.
 
-> [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv)
+> [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv)
 
 #### Variablen und Variablenausprägungen
 
@@ -146,7 +148,7 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://github.com
 |:----------------|:--------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | Meldedatum      | date    | Format: `YYYY-MM-DD`                                             | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
 | Bundesland_id   | string  | Werte: `01`, `02`, `03`, `04`, `05`, `06`, `07`, …               | ID des Bundeslands, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
-| Altersgruppe    | string  | Werte: `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der gemeldeten Fälle                                                                                                       |
+| Altersgruppe    | string  | Werte: `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der gemeldeten COVID-19-Fälle. Hinweis: Fälle mit unbekannter Altersgruppe sind nur in der Gruppe `00+` enthalten.         |
 | Bevoelkerung    | integer | Werte: `≥0`                                                      | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
 | Faelle_gesamt   | integer | Werte: `≥0`                                                      | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
 | Faelle_neu      | integer | Werte: `≥0`                                                      | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
@@ -170,7 +172,7 @@ Die Daten zur 7-Tage-Inzidenz von COVID-19 auf Landkreisebene sind nach folgende
 
 Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesystem gemäß Infektionsschutzgesetz an das RKI übermittelten COVID-19-Fälle ab. Das bedeutet, dass alle bis 00:00 Uhr von den Gesundheitsämtern über die zuständigen Landesbehörden an das RKI übermittelten  COVID-19-Fälle im Datenstand enthalten sind. Die Daten werden täglich vollständig neu erzeugt, dieser Datenstand ersetzt den Datenstand des Vortages.
 
-> [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv)
+> [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv)
 
 #### Variablen und Variablenausprägungen
 
