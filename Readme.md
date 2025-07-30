@@ -71,7 +71,7 @@ Durch den zeitlichen Verzug zwischen dem Beginn einer COVID-19 Erkrankung, der P
 
 > an der Heiden, Matthias (2022): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.4680400](https://doi.org/10.5281/zenodo.4680400)
 
-Seit dem Ende der akuten Phase der COVID-19 Pandemie stellt die 7-Tage Inzidenz der Fallzahlen nach Meldedatum eine hinreichend genaue Näherung da, bei der auch nur noch der letzte Schritt (Dauer von Eingang der Meldung am Gesundheitsamt bis zur Übermittlung an das RKI) zu einer gewissen Unterschätzung in den Zahlen für den gerade aktuellen Tage und die beiden Vortage führt.
+Seit dem Ende der akuten Phase der COVID-19 Pandemie stellt die 7-Tage Inzidenz der Fallzahlen nach Meldedatum eine hinreichend genaue Näherung da, bei der auch nur noch der letzte Schritt (Dauer von Eingang der Meldung am Gesundheitsamt bis zur Übermittlung an das RKI) zu einer gewissen Unterschätzung in den Zahlen für den aktuellen Tag und die beiden Vortage führt.
 
 Die 7-Tage-Inzidenzen können für verschiedene Bezugsgruppen berechnet werden. In der epidemiologischen Statistik wird eine Bezugsgruppe als Population bezeichnet. Eine Bezugspuppe bzw. Population kann beispielsweise nur Personen, 80 Jahre und älter in einem Kreis enthalten. Bei der Berechnung der 7-Tage-Inzidenz für eine Bezugsgruppe werden nur die COVID-19-Fälle dieser Gruppe und die Anzahl der Einwohner:innen dieser Bezugsgruppe für die Berechnung herangezogen. Wird die Population nur räumlich differenziert (Deutschland, Bundesländer, Landkreise), ist die 7-Tage-Inzidenz als statistische Größe, die die durchschnittliche Anzahl an Neuerkrankungen bezogen auf 100.000 Einwohner:innen angibt, zu interpretieren. 
 
