@@ -1,33 +1,54 @@
-Datensatzdokumentation  
-# 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland  
+ <!-- HEADER_START: {"lang": "de"} -->
 
-[Robert Koch-Institut | RKI](https://rki.de)   
-Nordufer 20  
-13353 Berlin  
+
+Dokumentation  
+# 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland
+
+<br> 
+<br> 
+<br> 
+
+[**Robert Koch-Institut**](http://www.rki.de/)
+
+<br> 
+
+**Beitragende**   
+[Alexander Ullrich](https://orcid.org/0000-0002-4894-6124)&sup1;, [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1;, & [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&sup2;
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](http://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](http://www.rki.de/) | [Fachgebiet MF 4](https://www.rki.de/mf4)
+
+<br> 
+
+**Zitieren**  
+Robert Koch-Institut. (2025). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15220926](https://doi.org/10.5281/zenodo.15220926)
 
 <br>
 
-**Beitragende**  
-[Alexander Ullrich](https://orcid.org/0000-0002-4894-6124)&sup1; (Datenmanagement), [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1; (Projektleitung) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup2; (Datenkuration)    
 
-&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet 32 ](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)  
-&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de) | [Fachgebiet MF 4](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html)  
+**Zusammenfassung**    
+Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).
 
----
+<br>
 
-**Zitieren**  
-<!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut. (2025). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15220926](https://doi.org/10.5281/zenodo.15220926)
-<!-- CITATION_END -->
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
 
+<br>
+
+<!-- HEADER_END -->
 
 ## Informationen zum Datensatz und Entstehungskontext  
 ### Administrative und organisatorische Angaben  
 
 Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) an das RKI übermittelten COVID-19-Fälle veröffentlicht.  
-Das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html) ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.  
-Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das Fachgebiet [IT4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/IT4/it4-softwarearchitektur-und-entwicklung-node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/fg32) ist verantwortlich für die fachlichen Anforderungen, Standardisierung und konzeptionelle Weiterentwicklung des Meldesystems gemäß IfSG.  
+Zuständig für den Betrieb des Meldesystems und die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten ist das Fachgebiet [IT4 | Softwarearchitektur und -entwicklung](https://www.rki.de/it4) des RKI.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 
 ### Entstehungskontext
 
@@ -41,7 +62,7 @@ Das [Infektionsschutzgesetz](https://www.gesetze-im-internet.de/ifsg/index.html)
 
 Dem Gesundheitsamt wird gemäß § 6 Abs. 1 Satz 1 Nr. 1 Buchst. t IfSG der Krankheitsverdacht, die Erkrankung, die Hospitalisierung sowie der Tod in Bezug auf eine Coronavirus-Krankheit-2019 (COVID-19) sowie gemäß § 7 Abs. 1 Nr. 44a IfSG der direkte oder indirekte Nachweis von Severe-Acute-Respiratory-Syndrome-Coronavirus-2 (SARS-CoV-2), soweit er auf eine akute Infektion hinweist, namentlich gemeldet. 
 
-Die Meldung muss unverzüglich erfolgen und dem zuständigen Gesundheitsamt spätestens 24 Stunden, nachdem der Meldende Kenntnis erlangt hat, vorliegen. Die Meldungen erfolgen zunehmend elektronisch (siehe Deutsches Elektronisches Melde- und Informationssystem für den Infektionsschutz, [DEMIS](www.rki.de/demis).  
+Die Meldung muss unverzüglich erfolgen und dem zuständigen Gesundheitsamt spätestens 24 Stunden, nachdem der Meldende Kenntnis erlangt hat, vorliegen. Die Meldungen erfolgen zunehmend elektronisch (siehe Deutsches Elektronisches Melde- und Informationssystem für den Infektionsschutz, [DEMIS](https://www.rki.de/demis).  
 
 #### Übermittlung von COVID-19-Fällen an das RKI 
 
