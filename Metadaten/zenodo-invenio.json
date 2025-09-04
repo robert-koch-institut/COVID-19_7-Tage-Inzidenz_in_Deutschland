@@ -1,10 +1,10 @@
 {
   "title": "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland",
-  "description": "<p>Im Datensatz '7-Tage-Inzidenz von COVID-19 in Deutschland' werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des <a href=\"https://www.gesetze-im-internet.de/ifsg/index.html\">Infektionsschutzgesetzes - IfSG -</a> an das RKI übermittelten COVID-19-Fälle veröffentlicht. Datengrundlage zur Berechnung der 7-Tage-Inzidenzen sind die an das RKI übermittelten COVID-19-Fälle. Eine detaillierte Dokumentation zur Erhebung der Daten zum Infektionsgeschehen ist im Datensatz '<a href=\"https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv\">SARS-CoV-2-Infektionen in Deutschland</a>' enthalten. Die für die Berechnung der 7-Tage-Inzidenz notwendigen Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken.</p>\n",
+  "description": "<p>Im Datensatz &quot;7-Tage-Inzidenz der COVID-19-Fälle in Deutschland&quot; des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).</p>\n",
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2025-09-03",
+  "publication_date": "2025-09-04",
   "creators": [
     {
       "person_or_org": {
@@ -14,28 +14,6 @@
     }
   ],
   "contributors": [
-    {
-      "person_or_org": {
-        "type": "personal",
-        "family_name": "Diercke",
-        "given_name": "Michaela",
-        "identifiers": [
-          {
-            "scheme": "orcid",
-            "identifier": "0000-0002-4678-1813"
-          }
-        ]
-      },
-      "affiliations": [
-        {
-          "name": "Robert Koch-Institut",
-          "id": "01k5qnb77"
-        }
-      ],
-      "role": {
-        "id": "projectleader"
-      }
-    },
     {
       "person_or_org": {
         "type": "personal",
@@ -56,6 +34,28 @@
       ],
       "role": {
         "id": "datamanager"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Diercke",
+        "given_name": "Michaela",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-4678-1813"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "projectleader"
       }
     },
     {
@@ -82,10 +82,10 @@
     }
   ],
   "publisher": "Zenodo",
-  "version": "2025-09-03",
+  "version": "2025-09-04",
   "dates": [
     {
-      "date": "2025-09-03T09:43:24+02:00",
+      "date": "2025-09-04T07:30:13+02:00",
       "type": {
         "id": "created"
       },

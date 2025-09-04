@@ -9,7 +9,7 @@
     "descriptions": [
       {
         "language": "DE (German)",
-        "text": "Im Datensatz '7-Tage-Inzidenz von COVID-19 in Deutschland' werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des Infektionsschutzgesetzes - IfSG - (https://www.gesetze-im-internet.de/ifsg/index.html) an das RKI übermittelten COVID-19-Fälle veröffentlicht. Datengrundlage zur Berechnung der 7-Tage-Inzidenzen sind die an das RKI übermittelten COVID-19-Fälle. Eine detaillierte Dokumentation zur Erhebung der Daten zum Infektionsgeschehen ist im Datensatz 'SARS-CoV-2-Infektionen in Deutschland (https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland/blob/main/Aktuell_Deutschland_SarsCov2_Infektionen.csv)' enthalten. Die für die Berechnung der 7-Tage-Inzidenz notwendigen Bevölkerungsdaten bezieht das RKI durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken."
+        "text": "Im Datensatz \"7-Tage-Inzidenz der COVID-19-Fälle in Deutschland\" des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS)."
       }
     ],
     "titles": [
@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.17043803",
+        "identifier": "10.5281/zenodo.17051679",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -105,7 +105,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2025-09-03"
+      "version": "2025-09-04"
     },
     "webpage": "https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland/",
     "contributors": [
@@ -121,17 +121,10 @@
             ]
           }
         ],
-        "nameType": "Personal",
-        "personal": {
-          "type": "Project leader",
-          "givenName": "Michaela",
-          "familyName": "Diercke",
-          "identifiers": [
-            {
-              "identifier": "0000-0002-4678-1813",
-              "scheme": "ORCID"
-            }
-          ]
+        "nameType": "Organisational",
+        "organisational": {
+          "name": "Robert Koch-Institut",
+          "type": "Creator/Author"
         }
       },
       {
@@ -173,12 +166,12 @@
         ],
         "nameType": "Personal",
         "personal": {
-          "type": "Data curator",
-          "givenName": "Hannes",
-          "familyName": "Wünsche",
+          "type": "Project leader",
+          "givenName": "Michaela",
+          "familyName": "Diercke",
           "identifiers": [
             {
-              "identifier": "0000-0002-8837-0326",
+              "identifier": "0000-0002-4678-1813",
               "scheme": "ORCID"
             }
           ]
@@ -196,10 +189,17 @@
             ]
           }
         ],
-        "nameType": "Organisational",
-        "organisational": {
-          "name": "Robert Koch-Institut",
-          "type": "Creator/Author"
+        "nameType": "Personal",
+        "personal": {
+          "type": "Data curator",
+          "givenName": "Hannes",
+          "familyName": "Wünsche",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-8837-0326",
+              "scheme": "ORCID"
+            }
+          ]
         }
       }
     ],
