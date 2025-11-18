@@ -21,7 +21,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Robert Koch-Institut. (2025). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17627431](https://doi.org/10.5281/zenodo.17627431)
+Robert Koch-Institut. (2025). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17637335](https://doi.org/10.5281/zenodo.17637335)
 
 <br>
 
