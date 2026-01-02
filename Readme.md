@@ -2,6 +2,7 @@
 
 
 Dokumentation  
+
 # 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland
 
 <br> 
@@ -21,7 +22,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Robert Koch-Institut. (2025). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18125828](https://doi.org/10.5281/zenodo.18125828)
+Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18125828](https://doi.org/10.5281/zenodo.18125828)
 
 <br>
 
@@ -31,11 +32,12 @@ Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" des Robert Koc
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
-  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)  
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -128,15 +130,15 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://github.com/r
 > [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable        | Typ     | Ausprägungen                                                     | Beschreibung                                                                                                                            |
-|:----------------|:--------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| Meldedatum      | date    | Format: `YYYY-MM-DD`                                             | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
-| Altersgruppe    | string  | Werte: `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der gemeldeten COVID-19-Fälle. Hinweis: Fälle mit unbekannter Altersgruppe sind nur in der Gruppe `00+` enthalten.         |
-| Bevoelkerung    | integer | Werte: `≥0`                                                      | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
-| Faelle_gesamt   | integer | Werte: `≥0`                                                      | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
-| Faelle_neu      | integer | Werte: `≥0`                                                      | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
-| Faelle_7-Tage   | integer | Werte: `≥0`                                                      | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
-| Inzidenz_7-Tage | number  | Werte: `≥0`                                                      | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
+| Variable        | Typ     | Ausprägungen                                                        | Beschreibung                                                                                                                            |
+|:----------------|:--------|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
+| Meldedatum      | date    | Format: `YYYY-MM-DD`                                                | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
+| Altersgruppe    | string  | Werte:<br>`00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der gemeldeten COVID-19-Fälle. Hinweis: Fälle mit unbekannter Altersgruppe sind nur in der Gruppe `00+` enthalten.         |
+| Bevoelkerung    | integer | Werte: `≥0`                                                         | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
+| Faelle_gesamt   | integer | Werte: `≥0`                                                         | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
+| Faelle_neu      | integer | Werte: `≥0`                                                         | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
+| Faelle_7-Tage   | integer | Werte: `≥0`                                                         | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
+| Inzidenz_7-Tage | number  | Werte: `≥0`                                                         | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -165,16 +167,16 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://github.com
 > [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable        | Typ     | Ausprägungen                                                     | Beschreibung                                                                                                                            |
-|:----------------|:--------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| Meldedatum      | date    | Format: `YYYY-MM-DD`                                             | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
-| Bundesland_id   | string  | Werte: `01`, `02`, `03`, `04`, `05`, `06`, `07`, …               | ID des Bundeslands, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
-| Altersgruppe    | string  | Werte: `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der gemeldeten COVID-19-Fälle. Hinweis: Fälle mit unbekannter Altersgruppe sind nur in der Gruppe `00+` enthalten.         |
-| Bevoelkerung    | integer | Werte: `≥0`                                                      | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
-| Faelle_gesamt   | integer | Werte: `≥0`                                                      | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
-| Faelle_neu      | integer | Werte: `≥0`                                                      | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
-| Faelle_7-Tage   | integer | Werte: `≥0`                                                      | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
-| Inzidenz_7-Tage | number  | Werte: `≥0`                                                      | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
+| Variable        | Typ     | Ausprägungen                                                        | Beschreibung                                                                                                                            |
+|:----------------|:--------|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
+| Meldedatum      | date    | Format: `YYYY-MM-DD`                                                | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
+| Bundesland_id   | string  | Werte:<br>`01`, `02`, `03`, `04`, `05`, `06`, `07`, …               | ID des Bundeslands, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
+| Altersgruppe    | string  | Werte:<br>`00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`, `00+` | Altersgruppe der gemeldeten COVID-19-Fälle. Hinweis: Fälle mit unbekannter Altersgruppe sind nur in der Gruppe `00+` enthalten.         |
+| Bevoelkerung    | integer | Werte: `≥0`                                                         | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
+| Faelle_gesamt   | integer | Werte: `≥0`                                                         | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
+| Faelle_neu      | integer | Werte: `≥0`                                                         | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
+| Faelle_7-Tage   | integer | Werte: `≥0`                                                         | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
+| Inzidenz_7-Tage | number  | Werte: `≥0`                                                         | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -203,15 +205,15 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/ro
 > [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable        | Typ     | Ausprägungen                                                            | Beschreibung                                                                                                                            |
-|:----------------|:--------|:------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| Meldedatum      | date    | Format: `YYYY-MM-DD`                                                    | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
-| Landkreis_id    | string  | Werte: `01001`, `01002`, `01003`, `01004`, `01051`, `01053`, `01054`, … | ID des Landkreises, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
-| Bevoelkerung    | integer | Werte: `≥0`                                                             | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
-| Faelle_gesamt   | integer | Werte: `≥0`                                                             | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
-| Faelle_neu      | integer | Werte: `≥0`                                                             | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
-| Faelle_7-Tage   | integer | Werte: `≥0`                                                             | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
-| Inzidenz_7-Tage | number  | Werte: `≥0`                                                             | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
+| Variable        | Typ     | Ausprägungen                                                               | Beschreibung                                                                                                                            |
+|:----------------|:--------|:---------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
+| Meldedatum      | date    | Format: `YYYY-MM-DD`                                                       | Datum, an dem das lokale Gesundheitsamt Kenntnis über den Fall erlangt und ihn elektronisch erfasst hat                                 |
+| Landkreis_id    | string  | Werte:<br>`01001`, `01002`, `01003`, `01004`, `01051`, `01053`, `01054`, … | ID des Landkreises, aus dem die COVID-19-Fälle übermittelt wurden, auf Basis des amtlichen Gemeindeschlüssels                           |
+| Bevoelkerung    | integer | Werte: `≥0`                                                                | Anzahl der Einwohner:innen in der Bezugsgruppe, Daten der Bevölkerungsstatistik des Statistischen Bundesamtes mit Datenstand 31.12.2022 |
+| Faelle_gesamt   | integer | Werte: `≥0`                                                                | COVID-19-Fälle seit Beginn der Datenerhebung                                                                                            |
+| Faelle_neu      | integer | Werte: `≥0`                                                                | Anzahl Fälle, die erstmals in der Berichterstattung des RKI veröffentlicht werden                                                       |
+| Faelle_7-Tage   | integer | Werte: `≥0`                                                                | Anzahl COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage                                                                  |
+| Inzidenz_7-Tage | number  | Werte: `≥0`                                                                | COVID-19-Fälle mit Meldedatum innerhalb der letzten sieben Tage je 100.000 Einwohner:innen                                              |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -236,7 +238,7 @@ Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten b
 
 > [Metadaten/](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
@@ -247,8 +249,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -277,6 +279,8 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 - https://github.com/robert-koch-institut  
 - https://gitlab.opencode.de/robert-koch-institut  
 - https://edoc.rki.de/  
+
+
  
 ### Lizenz  
 
