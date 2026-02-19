@@ -22,10 +22,12 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18692152](https://doi.org/10.5281/zenodo.18692152)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).
@@ -44,7 +46,8 @@ Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" des Robert Koc
 
 <!-- HEADER_END -->
 
-## Informationen zum Datensatz und Entstehungskontext  
+## Informationen zum Datensatz und Entstehungskontext 
+
 ### Administrative und organisatorische Angaben  
 
 Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) an das RKI übermittelten COVID-19-Fälle veröffentlicht.  
@@ -54,7 +57,7 @@ Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagemen
 
 ### Entstehungskontext
 
-Das Robert Koch-Institut ist ein Bundesinstitut im Geschäftsbereich des [Bundesministeriums für Gesundheit](https://www.bundesgesundheitsministerium.de/) (BMG) und ist die zentrale Einrichtung des Bundes auf dem Gebiet der Krankheitsüberwachung und -prävention sowie der anwendungsorientierten biomedizinischen Forschung. Es berät die zuständigen Bundesministerien, insbesondere das Bundesministerium für Gesundheit, und wirkt bei der Entwicklung von Normen und Standards mit. Wesentliche Aufgaben des RKI leiten sich aus dem [Infektionsschutzgesetz](https://www.gesetze-im-internet.de/ifsg/index.html) ab. Dazu gehört neben der in [§4 Abs. 1 IfSG](https://www.gesetze-im-internet.de/ifsg/__4.html) beschriebenen Aufgabe der „Vorbeugung übertragbarer Krankheiten sowie zur frühzeitigen Erkennung und Verhinderung der Weiterverbreitung von Infektionen“ auch die Erstellung von "Falldefinitionen für die Bewertung von Verdachts-, Erkrankungs- oder Todesfällen und Nachweisen von Krankheitserregern" (vgl. [§11 Abs. 2 IfSG](https://www.gesetze-im-internet.de/ifsg/__11.html)).  
+Das Robert Koch-Institut ist ein Bundesinstitut im Geschäftsbereich des [Bundesministeriums für Gesundheit](https://www.bundesgesundheitsministerium.de/) (BMG) und ist die zentrale Einrichtung des Bundes auf dem Gebiet der Krankheitsüberwachung und -prävention sowie der anwendungsorientierten biomedizinischen Forschung. Es berät die zuständigen Bundesministerien, insbesondere das Bundesministerium für Gesundheit, und wirkt bei der Entwicklung von Normen und Standards mit. Wesentliche Aufgaben des RKI leiten sich aus dem [Infektionsschutzgesetz](https://www.gesetze-im-internet.de/ifsg/index.html) ab. Dazu gehört neben der in [§4 Abs. 1 IfSG](https://www.gesetze-im-internet.de/ifsg/__4.html) beschriebenen Aufgabe der "Vorbeugung übertragbarer Krankheiten sowie zur frühzeitigen Erkennung und Verhinderung der Weiterverbreitung von Infektionen" auch die Erstellung von "Falldefinitionen für die Bewertung von Verdachts-, Erkrankungs- oder Todesfällen und Nachweisen von Krankheitserregern" (vgl. [§11 Abs. 2 IfSG](https://www.gesetze-im-internet.de/ifsg/__11.html)).  
 
 #### Infektionsschutzgesetz
 
@@ -74,11 +77,11 @@ COVID-19-Fälle, die die [Falldefinition des RKI](https://www.rki.de/DE/Themen/I
 
 Datengrundlage zur Berechnung der 7-Tage-Inzidenzen  sind die an das RKI übermittelten COVID-19-Fälle. Detaillierte Dokumentation zur Erhebung der Daten zum Infektionsgeschehen ist im Datensatz "[SARS-CoV-2-Infektionen in Deutschland](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland)" hinterlegt. 
 
-> Robert Koch-Institut (2022): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. [10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153)  
+> Robert Koch-Institut (2026): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. [10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153)  
 
-> https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv
+> [https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv)
 
-Die für die Berechnung der Inzidenzen bezieht das RKI Bevölkerungsdaten durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken. Detaillierte Informationen und Ergebnisse des Statistischen Bundesamtes bietet der Themenbereiche „[Bevölkerungstand](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html)“ und die Datenbank [GENESIS-Online](https://www-genesis.destatis.de/genesis/online?sequenz=tabellen&selectionname=12411*#abreadcrumb), sowie die [Regionaldatenbank Deutschland](https://www.regionalstatistik.de/genesis/online?operation=statistic&levelindex=0&levelid=1664438374999&code=12411#abreadcrumb) des Bundes und der Länder. Die Daten zur Bevölkerung lassen sich in sich durch den Filtercode "12411" aufrufen.   
+Die für die Berechnung der Inzidenzen bezieht das RKI Bevölkerungsdaten durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken. Detaillierte Informationen und Ergebnisse des Statistischen Bundesamtes bietet der Themenbereiche "[Bevölkerungstand](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html)" und die Datenbank [GENESIS-Online](https://www-genesis.destatis.de/genesis/online?sequenz=tabellen&selectionname=12411*#abreadcrumb), sowie die [Regionaldatenbank Deutschland](https://www.regionalstatistik.de/genesis/online?operation=statistic&levelindex=0&levelid=1664438374999&code=12411#abreadcrumb) des Bundes und der Länder. Die Daten zur Bevölkerung lassen sich in sich durch den Filtercode "12411" aufrufen.   
 
 Für die Berechnung der Inzidenzen werden jeweils die Bevölkerungszahlen des entsprechenden Jahres verwendet (z. B. für das Jahr 2020 die Bevölkerungsdaten von 2020). Da aktuelle Bevölkerungsstatistiken zeitverzögert veröffentlicht werden, werden für jüngere Zeiträume, für die noch keine Daten vorliegen, die zuletzt verfügbaren Bevölkerungszahlen herangezogen. Aktuell (Datenstand: 2025-01-08) werden daher für die Jahre 2023, 2024 und 2025 die Bevölkerungszahlen des Jahres 2022 verwendet. Eine Umstellung auf die jeweils neuesten Zahlen ist stets angestrebt. Dabei kann es jedoch zu sprunghaften Änderungen der Inzidenzen kommen.
 
@@ -92,7 +95,7 @@ Die 7-Tage-Inzidenzen berechnen sich aus der Summe der COVID-19-Fälle mit Melde
 
 Durch den zeitlichen Verzug zwischen dem Beginn einer COVID-19 Erkrankung, der PCR-Testung, Fall-Meldung an das Gesundheitsamt und Übermittlung dieser Meldung vom Gesundheitsamt an das RKI kommt es zu einer Unterschätzung der jeweils aktuellen Inzidenzen. Zur Abschätzung des tatsächlichen Verlaufs der Fallzahlen stellte das RKI während der akuten Phase der COVID-19 Pandemie ein Nowcasting bereit.
 
-> an der Heiden, Matthias (2022): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.4680400](https://doi.org/10.5281/zenodo.4680400)
+> an der Heiden, Matthias (2023): SARS-CoV-2-Nowcasting und -R-Schaetzung, Berlin: Zenodo. DOI:[10.5281/zenodo.4680400](https://doi.org/10.5281/zenodo.4680400)
 
 Seit dem Ende der akuten Phase der COVID-19 Pandemie stellt die 7-Tage Inzidenz der Fallzahlen nach Meldedatum eine hinreichend genaue Näherung da, bei der auch nur noch der letzte Schritt (Dauer von Eingang der Meldung am Gesundheitsamt bis zur Übermittlung an das RKI) zu einer gewissen Unterschätzung in den Zahlen für den aktuellen Tag und die beiden Vortage führt.
 
@@ -127,6 +130,7 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Deutschland", "lang": "de"} -->
 
 Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json) hinterlegt:
+
 > [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -164,6 +168,7 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender", "lang": "de"} -->
 
 Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json) hinterlegt:
+
 > [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -202,6 +207,7 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Landkreise", "lang": "de"} -->
 
 Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json) hinterlegt:
+
 > [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -222,15 +228,13 @@ Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/ro
 
 #### Formatierung
 
-Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",".
+Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`.
 
 - Zeichensatz: UTF-8
-- .csv Trennzeichen: Komma ","
+- .csv Trennzeichen: Komma `,`
 
 
 <!-- FOOTER_START: {"lang": "de"} -->
-
-
 
 ### Metadaten  
 
@@ -275,13 +279,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
 
 
- 
+
 ### Lizenz  
 
 Der Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
