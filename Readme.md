@@ -23,7 +23,7 @@ Dokumentation
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa"} -->  
-Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.19060441](https://doi.org/10.5281/zenodo.19060441)
+Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.19081809](https://doi.org/10.5281/zenodo.19081809)
 <!-- CITATION_END -->
 
 
