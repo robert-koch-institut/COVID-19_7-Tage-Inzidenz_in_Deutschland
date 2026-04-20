@@ -1,15 +1,21 @@
 {
   "title": "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland",
-  "description": "<p>Im Datensatz &quot;7-Tage-Inzidenz der COVID-19-Fälle in Deutschland&quot; des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).</p>\n",
+  "description": "<p>Im Datensatz \"7-Tage-Inzidenz der COVID-19-Fälle in Deutschland\" des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).</p>",
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2026-04-17",
+  "publication_date": "2026-04-20",
   "creators": [
     {
       "person_or_org": {
         "type": "organizational",
-        "name": "Robert Koch-Institut"
+        "name": "Robert Koch-Institut",
+        "identifiers": [
+          {
+            "scheme": "ror",
+            "identifier": "01k5qnb77"
+          }
+        ]
       }
     }
   ],
@@ -82,10 +88,10 @@
     }
   ],
   "publisher": "Zenodo",
-  "version": "2026-04-17",
+  "version": "2026-04-20",
   "dates": [
     {
-      "date": "2026-04-17T07:30:10+02:00",
+      "date": "2026-04-20T10:14:52+02:00",
       "type": {
         "id": "created"
       },
@@ -147,29 +153,23 @@
     },
     {
       "subject": "RKI"
+    },
+    {
+      "subject": "Gesundheitsberichterstattung"
+    },
+    {
+      "subject": "Epidemiologie"
+    },
+    {
+      "subject": "Public health surveillance"
+    },
+    {
+      "subject": "Epidemiology"
     }
   ],
   "custom_fields": {
     "legacy:communities": [
       "robertkochinstitut"
-    ],
-    "legacy:subjects": [
-      {
-        "term": "Gesundheitsberichterstattung",
-        "identifier": "info:ddc/22/de//614.42"
-      },
-      {
-        "term": "Epidemiologie",
-        "identifier": "info:ddc/22/de//614.4"
-      },
-      {
-        "term": "Public health surveillance",
-        "identifier": "info:ddc/22/eng//614.42"
-      },
-      {
-        "term": "Epidemiology",
-        "identifier": "info:ddc/22/eng//614.4"
-      }
     ]
   }
 }

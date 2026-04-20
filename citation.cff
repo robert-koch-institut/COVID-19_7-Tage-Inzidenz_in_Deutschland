@@ -1,16 +1,14 @@
 cff-version: 1.2.0
 type: dataset
 title: 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland
-abstract: >-
-  Im Datensatz &quot;7-Tage-Inzidenz der COVID-19-Fälle in Deutschland&quot; des
-  Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen
-  auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem
-  Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird
-  definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000
-  Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die
-  Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche
-  Elektronische Melde- und Informationssystem (DEMIS).
-date-released: '2026-04-17'
+abstract: Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" des Robert
+  Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-,
+  Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz
+  (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter
+  Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach
+  Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch
+  über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).
+date-released: '2026-04-20'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -28,11 +26,11 @@ keywords:
   - Public health surveillance
   - Epidemiology
 message: Cite me!
-url: >-
-  https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland/
+url: https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.19625225
-version: '2026-04-17T07:30:10+02:00'
+doi: 10.5281/zenodo.19660176
+version: '2026-04-20T10:14:52+02:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
+    website: http://www.rki.de/
