@@ -9,21 +9,21 @@ Dokumentation
 <br> 
 <br> 
 
-[**Robert Koch-Institut**](http://www.rki.de/)
+[**Robert Koch-Institut**](https://www.rki.de/)
 
 <br> 
 
 **Beitragende**   
 [Alexander Ullrich](https://orcid.org/0000-0002-4894-6124)&sup1;, [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1;, & [Hannes Wünsche](https://orcid.org/0000-0002-8837-0326)&sup2;
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut](http://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)  
-&emsp;&emsp;&sup2; [Robert Koch-Institut](http://www.rki.de/) | [Fachgebiet MF 4](https://www.rki.de/mf4)
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet MF 4](https://www.rki.de/mf4)
 
 <br> 
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22686000](https://doi.org/10.5281/zenodo.22686000)
+Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22702126](https://doi.org/10.5281/zenodo.22702126)
 <!-- CITATION_END -->
 
 
