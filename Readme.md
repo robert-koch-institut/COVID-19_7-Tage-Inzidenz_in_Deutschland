@@ -23,7 +23,7 @@ Dokumentation
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22742425](https://doi.org/10.5281/zenodo.22742425)
+Robert Koch-Institut. (2026). 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22762817](https://doi.org/10.5281/zenodo.22762817)
 <!-- CITATION_END -->
 
 
@@ -131,8 +131,6 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 
 Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json) hinterlegt:
 
-> [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Deutschland.json)
-
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable        | Typ     | Ausprägungen                                                        | Beschreibung                                                                                                                            |
 |:----------------|:--------|:--------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
@@ -168,8 +166,6 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender", "lang": "de"} -->
 
 Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json) hinterlegt:
-
-> [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Bundeslaender.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable        | Typ     | Ausprägungen                                                        | Beschreibung                                                                                                                            |
@@ -207,8 +203,6 @@ Die Daten bilden einen tagesaktuellen Stand (00:00 Uhr) aller über das Meldesys
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "COVID-19-Faelle_7-Tage-Inzidenz_Landkreise", "lang": "de"} -->
 
 Die Datei [COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json) hinterlegt:
-
-> [tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/Metadaten/schemas/tableschema_COVID-19-Faelle_7-Tage-Inzidenz_Landkreise.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable        | Typ     | Ausprägungen                                                               | Beschreibung                                                                                                                            |
@@ -290,5 +284,5 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, dass jede Person das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
 <!-- FOOTER_END -->
