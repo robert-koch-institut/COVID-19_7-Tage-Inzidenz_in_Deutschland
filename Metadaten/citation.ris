@@ -1,8 +1,8 @@
 TY  - DATA
 AB  - Im Datensatz "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland" des Robert Koch-Instituts werden die täglich aktualisierten COVID-19-Inzidenzen auf Bundes-, Landes- und Landkreisebene basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Die 7-Tage-Inzidenz wird definiert als Anzahl gemeldeter Fälle der letzten sieben Tage pro 100.000 Einwohner:innen und differenziert nach Altersgruppen und Regionen. Die Datenverarbeitung erfolgt vollständig elektronisch über das Deutsche Elektronische Melde- und Informationssystem (DEMIS).
 AU  - Robert Koch-Institut
-DA  - 2026-09-21
-DO  - 10.5281/zenodo.22841412
+DA  - 2026-09-22
+DO  - 10.5281/zenodo.22890443
 KW  - COVID-19
 KW  - SARS-CoV-2
 KW  - Inzidenz
@@ -21,6 +21,6 @@ KW  - Epidemiology
 PY  - 2026
 TI  - 7-Tage-Inzidenz der COVID-19-Fälle in Deutschland
 UR  - https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland
-ET  - 2026-09-21
+ET  - 2026-09-22
 N1  - License: CC-BY-4.0
 ER  -
