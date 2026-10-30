@@ -17,7 +17,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.23756186",
+        "identifier": "10.5281/zenodo.23795002",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -104,7 +104,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-10-29"
+      "version": "2026-10-30"
     },
     "webpage": "https://robert-koch-institut.github.io/COVID-19_7-Tage-Inzidenz_in_Deutschland",
     "contributors": [
